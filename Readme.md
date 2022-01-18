@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Vadim Schaimardanov](https://up.htmlacademy.ru/htmlcss/33/user/1927509).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077).
 
 ---
 
