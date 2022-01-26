@@ -42,9 +42,10 @@
         </ul>
       </nav>
     </header>
-      <section>
+
         <main class="main-inner">
-          <header class="inner-header">
+          <section>
+          <div class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
@@ -54,7 +55,7 @@
                 <a class="breadcrumbs-link">Гостиницы</a>
               </li>
             </ul>
-          </header>
+          </div>
 
         <div class="catalog-products">
           <h2 class="visually-hidden">Список товаров с фильтрами</h2>
@@ -62,15 +63,15 @@
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="Pool" checked>
+                    <input class="control-input" type="checkbox" name="infrastructure" checked>
                 Бассейн
                   </label>
                   <label class="control">
-                    <input class="control-input" type="checkbox" name="Parking" checked>
+                    <input class="control-input" type="checkbox" name="infrastructure" checked>
                 Парковка
                   </label>
                   <label class="control">
-                <input class="control-input" type="checkbox" name="Wi-Fi">
+                <input class="control-input" type="checkbox" name="infrastructure">
                 Wi-Fi
                   </label>
             </fieldset>
@@ -78,15 +79,15 @@
             <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
                 <label class="control">
-                  <input class="control-input" type="radio" name="hotel" value="shaving-supplies" checked>
+                  <input class="control-input" type="radio" name="type" value="hotel" checked>
               Гостиница
                 </label>
                 <label class="control">
-                  <input class="control-input" type="radio" name="motel" value="care-products">
+                  <input class="control-input" type="radio" name="type" value="motel">
               Мотель
                 </label>
                 <label class="control">
-                  <input class="control-input" type="radio" name="apartmenst" value="accessories">
+                  <input class="control-input" type="radio" name="type" value="apartmenst">
               Апартаменты
                 </label>
               </fieldset>
@@ -200,7 +201,6 @@
             </button>
           </form>
       </section>
-
     </main>
 
     <footer class="page-footer">
