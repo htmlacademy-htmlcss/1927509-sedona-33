@@ -41,13 +41,50 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  color: #242424;
-  background-color: #fbf7f4;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button1 {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button2 {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.newsletter-button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #83B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .page-header {
-  color: #ffffff;
-  background: #000000;
+  color: #000000;
+  background: #ffffff;
 }
 
 .navigation-link {
@@ -62,5 +99,63 @@ body {
 }
 
 .main-index {
-  background-image: url("images/index-background.jpg");
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.newsletter {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/background-appointment.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantage-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-name {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.appointment-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.page-footer-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
 }
