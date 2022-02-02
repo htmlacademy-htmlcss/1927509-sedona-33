@@ -114,6 +114,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.products {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/catalog-background.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .advantages {
   text-align: center;
 }
