@@ -88,7 +88,7 @@ body {
 }
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
@@ -127,14 +127,14 @@ body {
 }
 
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
 .advantage-description {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
 }
