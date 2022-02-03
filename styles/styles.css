@@ -164,7 +164,7 @@ body {
 .footer-contacts-address-phone {
   font-size: 40px;
   line-height: 40px;
-  text-transform: uppercase;
+  font-weight: 400;
   color: #000000;
 }
 
