@@ -175,8 +175,33 @@ body {
 }
 
 .slider-image {
-  width: 800px;
+  margin: 0;
 }
+
+.advantages-item-title {
+  width: 1200px;
+}
+
+.advantages-item1 {
+  display: grid;
+  grid-template-areas: "advantages-title1 slider-image1"
+                      "advantage-description1 slider-image1";
+  width: 1200px;
+}
+
+.advantages-item1 > .advantages-title1 {
+  grid-area: advantages-title1;
+}
+
+.advantages-item1 > .advantage-description1 {
+  grid-area: padvantage-description1;
+}
+
+.advantages-item1 > .slider-image1 {
+  grid-area: slider-image1;
+}
+
+
 
 .advantages-item {
   width: 400px;
