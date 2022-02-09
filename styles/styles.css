@@ -37,7 +37,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans","Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -87,6 +95,23 @@ body {
   background: #ffffff;
 }
 
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 264px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-family: "PT Sans","Arial", sans-serif;
   line-height: 26px;
@@ -98,12 +123,26 @@ body {
   text-transform: uppercase;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 .main-index {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .newsletter {
@@ -124,6 +163,22 @@ body {
 
 .advantages {
   text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.slider-image {
+  width: 800px;
+}
+
+.advantages-item {
+  width: 400px;
 }
 
 .advantages-title {
@@ -166,6 +221,7 @@ body {
   line-height: 40px;
   font-weight: 400;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .inner-header-title {
