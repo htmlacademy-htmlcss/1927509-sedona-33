@@ -44,7 +44,8 @@
       </nav>
     </header>
 
-        <main class="main-inner">
+    <main class="main-inner main-container">
+      <div class="page-container">
           <div class="products">
           <section>
           <div class="inner-header">
@@ -60,8 +61,9 @@
           </div>
 
         <div class="catalog-products">
-          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+          <h2 class="visually-hidden" hidden>Список товаров с фильтрами</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
                   <label class="control">
@@ -157,8 +159,8 @@
           </li>
         </ul>
           <button class="button pagination-show-more" type="button">Загрузить ещё</button>
-
-        <ul class="pagination">
+        <div class="pagination-sorting">
+          <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
           </li>
@@ -179,9 +181,9 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>
-        </ul>
+          </ul>
 
-        <div class="sorting">
+          <div class="sorting-card">
           <h4 class="quantity">Гостиниц на странице:</h4>
           <select class="select-control" aria-label="Сортировка">
             <option value="popular">1</option>
@@ -189,6 +191,7 @@
             <option value="expensive">3</option>
             <option value="expensive">4</option>
           </select>
+          </div>
         </div>
       </section>
 
@@ -204,7 +207,8 @@
             </button>
           </form>
       </section>
-    </main>
+    </div>
+  </main>
 
     <footer class="page-footer">
       <section class="footer-social">
