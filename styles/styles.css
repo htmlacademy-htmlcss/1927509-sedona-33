@@ -67,6 +67,8 @@ body {
 
 .button2 {
   font-family: inherit;
+  width: 575px;
+  height: 60px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -149,6 +151,8 @@ body {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/background-appointment.png");
+  width: 1200px;
+  height: 411px;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -166,41 +170,185 @@ body {
   text-align: center;
 }
 
-.advantages-list {
+.advantages-item-titles {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 282px;
+  background-color: #ffffff;
+}
+
+.advantages-title-titles {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 720px;
+  margin: 0 auto;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.advantage-description-titles {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 720px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.advantages-item-town {
+  display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-
-.slider-image {
-  margin: 0;
-}
-
-.advantages-item-title {
+  flex-direction: column;
+  justify-content: center;
+  height: 384px;
   width: 1200px;
+  text-align: center;
+  background-color: #83B3D3;
 }
 
-.advantages-item1 {
-  display: grid;
-  grid-template-areas: "advantages-title1 slider-image1"
-                      "advantage-description1 slider-image1";
+.advantages-title-town {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 400px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantage-description-town {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 220px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-list-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1200px;
+  height: 384px;
 }
 
-.advantages-item1 > .advantages-title1 {
-  grid-area: advantages-title1;
+.advantages-item-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  height: 384px;
 }
 
-.advantages-item1 > .advantage-description1 {
-  grid-area: padvantage-description1;
+.advantages-item-services:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 384px;
 }
 
-.advantages-item1 > .slider-image1 {
-  grid-area: slider-image1;
+.advantages-title-services {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 28px;
 }
 
+.advantage-description-services {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-item-bridge {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 384px;
+  width: 1200px;
+  text-align: center;
+  background-color: #83B3D3;
+}
+
+.slider-image-bridge {
+  order: -1;
+}
+
+.advantages-title-bridge {
+  font-family: "PT Sans","Arial", sans-serif;
+  color: #ffffff;
+  width: 400px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantage-description-bridge {
+  font-family: "PT Sans","Arial", sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 220px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-list-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 384px;
+}
+
+.advantages-item-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  height: 384px;
+}
+
+.advantages-item-features:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 179, 211, 0.2);
+  width: 400px;
+  height: 384px;
+}
+
+.advantages-title-features {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantage-description-features {
+  font-family: "PT Sans","Arial", sans-serif;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .advantages-item {
@@ -227,6 +375,44 @@ body {
   text-transform: uppercase;
 }
 
+.catalog-products {
+  display: flex;
+  flex-direction: row;
+}
+
+.sorting {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.pagination-soting {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 417px;
+}
+
 .appointment-title {
   font-size: 30px;
   line-height: 36px;
@@ -240,6 +426,18 @@ body {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.page-footer-description {
+  color: #FFFFFF;
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-contacts-address-phone {
