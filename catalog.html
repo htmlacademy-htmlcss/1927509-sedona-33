@@ -61,7 +61,7 @@
           </div>
 
         <div class="catalog-products">
-          <h2 class="visually-hidden" hidden>Список товаров с фильтрами</h2>
+          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
             <fieldset class="catalog-filter-group">
@@ -108,7 +108,7 @@
             <option value="cheap">Сначала дешёвое</option>
             <option value="expensive">Сначала дорогое</option>
           </select>
-          <a href="#" class="button button-light">
+          <a href="#" class="button">
             <span class="visually-hidden">Показать список</span>
           </a>
           <a class="button" href="#">
@@ -159,6 +159,7 @@
           </li>
         </ul>
           <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+
         <div class="pagination-sorting">
           <ul class="pagination">
           <li class="pagination-item">
@@ -174,9 +175,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link pagination-next" href="#">
-              <span class="visually-hidden">...</span>
-            </a>
+            <a class="pagination-link" href="#">...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
@@ -195,18 +194,18 @@
         </div>
       </section>
 
-      <section class="newsletter">
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама,
+      <div class="newsletter">
+        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+        <p class="newsletter-description">Только полезная информация и никакого спама,
           честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email</label>
-            <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
-            <button class="button newsletter-button" type="submit">
+            <label for="visually-hidden">Email</label>
+            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="button-newsletter" type="submit">
               <span class="visually-hidden">Отправить</span>
             </button>
           </form>
-      </section>
+        </div>
     </div>
   </main>
 
